@@ -749,14 +749,14 @@ wheels = [
 
 [[package]]
 name = "ensure"
-version = "1.0.2"
+version = "1.0.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "six" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/21/99/ba5d6a41579e0cf174e521543f1a944f338e581d66163ba45dbcc7bfe2e1/ensure-1.0.2.tar.gz", hash = "sha256:9f4ed3212457cb953f94e568482292fa28a8893897f7e520988908f5bddd5f63", size = 21343, upload-time = "2021-12-05T19:32:26.53Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/14/b4/3c6b1c6af40fbd60bd1b2f0f8b55a8cbbc0993d4019a428b99e86f7bdee9/ensure-1.0.4.tar.gz", hash = "sha256:41b9093d591b5c25ee3c65c36da153b89abfcb7acb21ecebf21944704934f9b0", size = 21471, upload-time = "2023-12-10T03:32:42.788Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/08/6e/ca1fbf6907d116982d182ca6814e4925de5378f032c1495e2e17c18013c0/ensure-1.0.2-py2.py3-none-any.whl", hash = "sha256:2016cac9913ecac057cda22c84924c1d931040a5c130e76d56136c3c7954b7ae", size = 15820, upload-time = "2021-12-05T19:32:24.675Z" },
+    { url = "https://files.pythonhosted.org/packages/53/34/076953d6007a5eeaa2fdd2f78c23bdf4ba1926f3cd334d59af34f354ecc6/ensure-1.0.4-py3-none-any.whl", hash = "sha256:ad88628482eac9bf91dd147ae677f26aeac6c65e1c91a161a0306dbd83f6efd9", size = 15564, upload-time = "2023-12-10T03:32:40.453Z" },
 ]
 
 [[package]]
@@ -3448,7 +3448,7 @@ dependencies = [
 requires-dist = [
     { name = "boto3", specifier = ">=1.42.59" },
     { name = "datasets", specifier = ">=4.6.1" },
-    { name = "ensure", specifier = "==1.0.2" },
+    { name = "ensure", specifier = "==1.0.4" },
     { name = "evaluate", specifier = ">=0.4.6" },
     { name = "fastapi", specifier = "==0.78.0" },
     { name = "jinja2", specifier = "==3.1.2" },
