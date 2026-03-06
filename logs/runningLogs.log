@@ -375,3 +375,7 @@ OSError: [Errno 22] Invalid argument: 'artifacts\\data_ingestion\\samsum_dataset
 [2026-03-06 14:52:34,662: INFO: _client: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/refs%2Fpr%2F12/model.safetensors "HTTP/1.1 302 Found"]
 [2026-03-06 14:52:47,982: INFO: _client: HTTP Request: HEAD https://huggingface.co/google/pegasus-cnn_dailymail/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"]
 [2026-03-06 14:52:48,001: INFO: _client: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/pegasus-cnn_dailymail/40d588fdab0cc077b80d950b300bf66ad3c75b92/generation_config.json "HTTP/1.1 200 OK"]
+[2026-03-06 21:54:43,142: INFO: common: yaml file:config\config.yaml loaded sucessesful]
+[2026-03-06 21:54:43,145: INFO: common: created dir at:artifacts]
+[2026-03-06 21:54:43,150: INFO: common: created dir at:artifacts/modelEvaluation]
+[2026-03-06 22:12:01,796: INFO: rouge_scorer: Using default tokenizer.]

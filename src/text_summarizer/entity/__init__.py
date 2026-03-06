@@ -29,3 +29,12 @@ class ModelTrainingConfig:
     evalSteps: int
     saveSteps: float
     gradientAccumulationSteps: int
+
+@dataclass(frozen=True)
+class ModelEvalConfig:
+    rootDir:Path
+    dataPath:Path
+    modelPath:Path
+    tokenizerPath: Path
+    metricFileName: Path
+    
