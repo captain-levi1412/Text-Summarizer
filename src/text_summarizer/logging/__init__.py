@@ -2,7 +2,7 @@ import os
 import sys
 import logging
 
-logDir="logs"
+logDir="log"
 loggingStr= "[%(asctime)s: %(levelname)s: %(module)s: %(message)s]"
 
 logFilepath= os.path.join(logDir,"runningLogs.log")
