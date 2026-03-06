@@ -110,7 +110,7 @@ Text-Summarizer/
 Add new modules or stages under [text_summarizer](src/text_summarizer) as the project
 expands.
 
-### Development
+## Development
 - **Logging** – the logger object is imported from
 src/text_summarizer/logging.py. Adjust formatting/handlers there.
 
@@ -129,7 +129,7 @@ def test_data_transformation(tmp_path):
     # assert expected output files exist
 ```
 
-### Extending the project
+## Extending the project
 
 1. **Additional data sources** – extend the ingestion pipeline or add new
 stage modules.
@@ -138,7 +138,7 @@ interface (ModelTrainingPipeline could accept a strategy object).
 3. **Deployment** – wrap the trained model in an API (Flask/FastAPI) and
 serve summaries.
 
-### Contributing
+## Contributing
 1. Fork the repo.
 2. Create a feature branch:`git checkout -b feature/my-feature.`
 3. Commit your changes and open a pull request.
